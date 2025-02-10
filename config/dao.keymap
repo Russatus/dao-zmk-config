@@ -26,14 +26,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Del {
-            bindings = <&kp DEL>;
-            key-positions = <8 9>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
